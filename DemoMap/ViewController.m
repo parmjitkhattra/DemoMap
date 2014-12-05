@@ -26,11 +26,15 @@
 }
 
 - (IBAction)zoomIn:(id)sender {
-    MKUserLocation *userLocqtion =_mapView.userLocation;
-    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocqtion.location.coordinate, 2000, 2000);
+    MKUserLocation *userLocation =_mapView.userLocation;
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.location.coordinate, 1000,1000);
     [_mapView setRegion:region animated:NO];
 }
 
 - (IBAction)changeMapType:(id)sender {
+    if (_mapView.mapType ==MKMapTypeStandard)
+        _mapView.mapType = MKMapTypeSatellite;
+    else
+        _mapView.mapType = MKMapTypeStandard;
 }
 @end
