@@ -19,8 +19,16 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bpI-L6-qzu">
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
-                                    <barButtonItem title="Zoom" id="941-oY-Iai"/>
-                                    <barButtonItem title="Type" id="N6I-rN-osV"/>
+                                    <barButtonItem title="Zoom" id="941-oY-Iai">
+                                        <connections>
+                                            <action selector="zoomIn:" destination="vXZ-lx-hvc" id="Nlk-Cc-DK1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Type" id="N6I-rN-osV">
+                                        <connections>
+                                            <action selector="changeMapType:" destination="vXZ-lx-hvc" id="y74-hB-7m1"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="G2F-od-P0p">
