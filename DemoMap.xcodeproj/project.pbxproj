@@ -14,6 +14,7 @@
 		3FD3B3D11A31DF5E00A6C2FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3B3D01A31DF5E00A6C2FF /* Images.xcassets */; };
 		3FD3B3D41A31DF5E00A6C2FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3B3D21A31DF5E00A6C2FF /* LaunchScreen.xib */; };
 		3FD3B3E01A31DF5E00A6C2FF /* DemoMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3B3DF1A31DF5E00A6C2FF /* DemoMapTests.m */; };
+		3FD3B3EA1A31E2C300A6C2FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD3B3E91A31E2C300A6C2FF /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3FD3B3D91A31DF5E00A6C2FF /* DemoMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD3B3DE1A31DF5E00A6C2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FD3B3DF1A31DF5E00A6C2FF /* DemoMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMapTests.m; sourceTree = "<group>"; };
+		3FD3B3E91A31E2C300A6C2FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD3B3EA1A31E2C300A6C2FF /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		3FD3B3B71A31DF5E00A6C2FF = {
 			isa = PBXGroup;
 			children = (
+				3FD3B3E91A31E2C300A6C2FF /* MapKit.framework */,
 				3FD3B3C21A31DF5E00A6C2FF /* DemoMap */,
 				3FD3B3DC1A31DF5E00A6C2FF /* DemoMapTests */,
 				3FD3B3C11A31DF5E00A6C2FF /* Products */,
