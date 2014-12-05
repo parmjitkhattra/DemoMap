@@ -26,6 +26,9 @@
 }
 
 - (IBAction)zoomIn:(id)sender {
+    MKUserLocation *userLocqtion =_mapView.userLocation;
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocqtion.location.coordinate, 2000, 2000);
+    [_mapView setRegion:region animated:NO];
 }
 
 - (IBAction)changeMapType:(id)sender {
