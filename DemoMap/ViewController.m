@@ -27,7 +27,7 @@
 
 - (IBAction)zoomIn:(id)sender {
     MKUserLocation *userLocation =_mapView.userLocation;
-    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.location.coordinate, 1000,1000);
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.location.coordinate, 20000,20000);
     [_mapView setRegion:region animated:NO];
 }
 
