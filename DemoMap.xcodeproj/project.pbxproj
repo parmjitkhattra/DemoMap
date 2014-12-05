@@ -15,6 +15,7 @@
 		3FD3B3D41A31DF5E00A6C2FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3B3D21A31DF5E00A6C2FF /* LaunchScreen.xib */; };
 		3FD3B3E01A31DF5E00A6C2FF /* DemoMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3B3DF1A31DF5E00A6C2FF /* DemoMapTests.m */; };
 		3FD3B3EA1A31E2C300A6C2FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD3B3E91A31E2C300A6C2FF /* MapKit.framework */; };
+		3FD3B3EC1A31EEF100A6C2FF /* error file in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3B3EB1A31EEF100A6C2FF /* error file */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		3FD3B3DE1A31DF5E00A6C2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FD3B3DF1A31DF5E00A6C2FF /* DemoMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMapTests.m; sourceTree = "<group>"; };
 		3FD3B3E91A31E2C300A6C2FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3FD3B3EB1A31EEF100A6C2FF /* error file */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "error file"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				3FD3B3CA1A31DF5E00A6C2FF /* ViewController.h */,
 				3FD3B3CB1A31DF5E00A6C2FF /* ViewController.m */,
 				3FD3B3CD1A31DF5E00A6C2FF /* Main.storyboard */,
+				3FD3B3EB1A31EEF100A6C2FF /* error file */,
 				3FD3B3D01A31DF5E00A6C2FF /* Images.xcassets */,
 				3FD3B3D21A31DF5E00A6C2FF /* LaunchScreen.xib */,
 				3FD3B3C31A31DF5E00A6C2FF /* Supporting Files */,
@@ -203,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD3B3EC1A31EEF100A6C2FF /* error file in Resources */,
 				3FD3B3CF1A31DF5E00A6C2FF /* Main.storyboard in Resources */,
 				3FD3B3D41A31DF5E00A6C2FF /* LaunchScreen.xib in Resources */,
 				3FD3B3D11A31DF5E00A6C2FF /* Images.xcassets in Resources */,

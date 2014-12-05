@@ -1,0 +1,1 @@
+2014-12-05 19:16:07.526 DemoMap[4796:368296] Trying to start MapKit location updates without prompting for location authorization. Must call -[CLLocationManager requestWhenInUseAuthorization] or -[CLLocationManager requestAlwaysAuthorization] first.
